@@ -19,12 +19,11 @@ Adding support for modern browsers to open SWF in Adobe with CSFP.
 
 ## How to use for Webmaster:
 
-1. (Optional) Edit Scheme property in Form1.cs for your custom scheme, then rebuild the CSFP.
-2. Combine scheme header with base64 encoded SWF full path as a launch url.
+You will need to combine the scheme header with base64 encoded SWF full path as a launch url using the example below.
 Example: var url = "csflash://" + base64encode("http://yoursite.com/"+swfpath);
 
 Hints for Webmaster:
-* SWFpath need not urlencode.
+* SWFpath does not need a urlencode.
 * Modern browsers has built in base64encode function, just: btoa(swfpath) .
 * If you open the launch url in a new window, it will leave a blank window, if not, the web page will stop functioning after launch. Solution: Open in a hidden iframe.
 
