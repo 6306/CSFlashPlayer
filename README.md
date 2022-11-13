@@ -19,8 +19,8 @@ Adding support for modern browsers to open SWF in Adobe with CSFP.
 
 ## How to use for Webmaster:
 
-1. (Optional) Edit Scheme property in Form1.cs for your custom scheme, then rebuild.
-2. Combine scheme header with base64 encoded swf full path  as a launch url.
+1. (Optional) Edit Scheme property in Form1.cs for your custom scheme, then rebuild the CSFP.
+2. Combine scheme header with base64 encoded SWF full path as a launch url.
 Example: var url = "csflash://" + base64encode("http://yoursite.com/"+swfpath);
 
 Hints for Webmaster:
@@ -30,7 +30,7 @@ Hints for Webmaster:
 
 ## Issue self check list:
 <pre>
-When you click a "CLICK TO PLAY" or "CSFlashPlayer" button:
+When you click a "PLAY with CSFlashPlayer" or "CSFlashPlayer" button:
 Q1. Nothing happened.
 	A11. your CSFlashPlayer was not registered correctly. please run CSFP.exe to register.
 		Q111. Nothing happens when I run CSFP.exe
