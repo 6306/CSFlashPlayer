@@ -10,7 +10,7 @@ Adding support for modern browsers to open SWF in Adobe with CSFP.
 
 ## How to use on all sites:
 
-* We need a user script to add buttons on flash plugin objects.
+* We need a user script to add buttons on flash plugin objects (NOT READY!).
 
 1. Install user script browser extension Tampermonkey.  
    Chrome: https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo  
@@ -45,3 +45,12 @@ Q2. a blank window and it's keeps blank forever.
 </pre>
 
 If your problem is not listed above, create a new issue.
+
+
+
+
+
+
+
+
+May have taken this from some other source...
